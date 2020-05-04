@@ -1,7 +1,7 @@
 <?php
 $servidor='localhost';
 $usuario='c13belsay';
-$contrasena='tXhdQCicY5_';
+$contrasena='hUixUPp_7';
 $base='c13belsay';
 
 $tabla1='usuarios';
