@@ -1,0 +1,720 @@
+*{
+	font-family:arial;
+	}
+
+A{
+	text-decoration:none;
+	color:#000;
+	}
+
+body{
+	padding:0px;
+	margin:0px;
+	background:#ffc9c9;
+	}
+
+input,textarea{
+	text-transform: uppercase;
+	}
+
+#cabecera{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:980px;
+	height:50px;
+	border:solid 0px #F00;
+	padding:10px;
+	}
+
+#accion{
+	border:solid 1px #000;
+	width:280px;
+	height:30px;
+	text-align:center;
+	font-size:20px;
+	padding-top:5px;
+	padding-bottom:5px;
+	background: #0C0;
+}
+
+#accion2{
+	border:solid 1px #000;
+	width:280px;
+	height:30px;
+	text-align:center;
+	font-size:20px;
+	padding-top:5px;
+	padding-bottom:5px;
+	background: #DDD;
+}
+
+#accion21{
+	border:solid 1px #000;
+	width:280px;
+	height:40px;
+	text-align:center;
+	font-size:20px;
+	padding-top:5px;
+	padding-bottom:5px;
+	background: #0C0;
+}
+
+#accion21{
+	border:solid 1px #000;
+	width:280px;
+	height:40px;
+	text-align:center;
+	font-size:20px;
+	padding-top:5px;
+	padding-bottom:5px;
+	background: #DDD;
+}
+	
+#contenido{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:1000px;
+	height:500px;
+	border:solid 0px #00F;
+	}
+
+#enlaces{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:1000px;
+	height:40px;
+	border:solid 0px #0F0;
+}	
+
+td{
+	padding:0px;
+	}
+#menu{
+	position:absolute;
+	top:0px;
+	left:0px;
+	}
+#boton_menu,#boton_menu_select{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:auto;
+	height:40px;
+	border:solid 0px #F00;
+	color:#000;
+	text-align:center;
+	font-size:19px;
+	padding-top:10px;
+	padding-left:26px;
+	padding-right:26px;
+	padding-bottom:0px;
+	float:left;
+	display:block;
+}
+/*			PUTO INTERNET EXPLORER, LO ODIO
+#menu td{
+	background:url(imagenes/boton_admin_der.png);
+	background-position:top right;
+	background-repeat:no-repeat;
+	}
+#menu #boton_menu{
+	background:url(imagenes/boton_admin_iz.png);
+	background-position:top left;
+	background-repeat:no-repeat;
+	}
+	
+#menu a{
+	background:url(imagenes/boton_admin_centro.png);
+	background-position:top center;
+	background-repeat:no-repeat;
+	padding-top:11px;
+	padding-bottom:14px;
+	}
+
+#menu td:hover{
+	background:url(imagenes/boton_admin2_der.png);
+	background-position:top right;
+	background-repeat:no-repeat;
+	}
+#menu #boton_menu:hover{
+	background:url(imagenes/boton_admin2_iz.png);
+	background-position:top left;
+	background-repeat:no-repeat;
+	}
+#menu a:hover{
+	background:url(imagenes/boton_admin2_centro.png);
+	background-position:top center;
+	background-repeat:no-repeat;
+	padding-top:11px;
+	padding-bottom:14px;
+	}
+
+#menu #selected1{
+	background:url(imagenes/boton_admin3_der.png);
+	background-position:top right;
+	background-repeat:no-repeat;
+	}
+#menu #boton_menu_select{
+	background:url(imagenes/boton_admin3_iz.png);
+	background-position:top left;
+	background-repeat:no-repeat;
+	}
+#menu #selected3{
+	background:url(imagenes/boton_admin3_centro.png);
+	background-position:top center;
+	background-repeat:no-repeat;
+	padding-top:11px;
+	padding-bottom:14px;
+	}
+*/
+
+
+#boton_menu{
+	background:url(imagenes/boton_admin_iz.png)top left no-repeat,
+	url(imagenes/boton_admin_der.png)top right no-repeat,	
+	url(imagenes/boton_admin_centro.png)center no-repeat;
+}
+
+#boton_menu:hover{
+	background:url(imagenes/boton_admin2_iz.png)top left no-repeat,
+	url(imagenes/boton_admin2_der.png)top right no-repeat,	
+	url(imagenes/boton_admin2_centro.png)center no-repeat;
+}
+
+
+#boton_menu_select{
+	background:url(imagenes/boton_admin3_iz.png)top left no-repeat,
+	url(imagenes/boton_admin3_der.png)top right no-repeat,	
+	url(imagenes/boton_admin3_centro.png)center no-repeat;
+}
+
+#texto{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:980px;
+	height:auto;
+	padding:10px;
+	border:solid 1px #777;
+	background:#fbffe3;
+	text-align:left;
+	}
+
+#franja{
+	position:relative;
+	top:0px;
+	left:0px;
+	height:auto;
+	width:100%;
+	background-image:url('imagenes/fondo_franja.gif');
+	background-repeat:repeat-x;
+	background-position:bottom;
+	padding-top:2px;
+	padding-bottom:2px;
+	border-top:solid 1px #777;
+	border-left:solid 1px #777;
+	border-right:solid 1px #777;
+	font-size:30px;
+}
+#franja_text{
+	font-size:18px;
+	}
+
+#franja td{
+	padding-left:10px;
+	padding-right:10px;
+	}
+
+/* OoOoOoOoOoOoOoOo    ESTILOS DE ALTAS          OoOoOoOoOoOoOoOo  */
+
+#alta_clientes{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:800px;
+	border:solid 5px #fbd366;
+	}
+
+#alta_clientes #titulo_alta_clientes{
+	background:#fbd366;
+	padding-left:30px;
+	font-weight:bold;
+	}
+	
+#alta_clientes td{
+	background:#feffba;
+	padding:5px;
+	}
+
+#alta_clientes input{
+	background:#fbffe3;
+	text-transform: uppercase;
+	}
+
+#alta_clientes #boton{
+	background:#fbd366;
+	font-weight:bold;
+	}
+
+#anadir{
+	margin:10px;
+	border:solid 0px #F00;
+	padding:5px;
+	font-size:14px;
+	}
+
+fieldset{
+	border:solid 1px #777;
+	width:400px;
+	color:#800;
+	font-weight:bold
+	}	
+
+legend{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:auto;
+	height:auto;
+	color:#061096;
+	font-weight:bold;
+	border:solid 1px #777;
+	padding:5px;
+	}
+
+#correcto{
+	color:#006400;
+	}
+
+#error{
+	color:#F00
+	}
+
+#consejo{
+	font-size:10px;
+	}
+
+/* OoOoOoOoOoOoOoOo    ESTILOS DE GESTION          OoOoOoOoOoOoOoOo  */
+
+#texto_gestion{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:900px;
+	height:auto;
+	overflow:auto;
+	border:solid 5px #fbd366;
+	}
+
+#tabla_gestion{
+	border-left:solid 1px #fbd366;
+	border-right:solid 1px #fbd366;
+	font-size:13px;
+	}
+
+#cabecera_tabla{
+	background:#fbd366;
+	height:30px;
+	}
+
+#tabla_gestion td{
+	border-bottom:solid 1px #000;
+	}
+
+#fila_par,#fila_inpar,#sin_leer,#leida,#aceptada,#rechazada{
+	height:30px;
+	text-align:center;
+	}
+#fila_par td{
+	padding:5px;
+	}
+#fila_inpar td{
+	padding:5px;
+	}
+
+#fila_par{
+	background-color: #FFFFFF;
+	}
+	  
+#fila_inpar{
+	background-color: #E1E8F1;
+	}  
+
+#sin_leer{
+	background-color: #DDD;
+	}
+
+#leida{
+	background-color: #FFFFFF;
+	}
+
+#aceptada{
+	background-color: #a2ffa4;
+	}
+
+#rechazada{
+	background-color: #ffa2a2;
+	}
+
+#texto_titulo{
+	margin:5px;
+	font-weight:bold;
+	}
+
+#enlaces_abajo{
+	width:800px;
+	}
+
+/* OoOoOoOoOoOoOoOo    ESTILOS DE INFORMACION          OoOoOoOoOoOoOoOo  */
+
+#cuerpo_info{
+	background-image:url(imagenes/fondo_info.png);
+	background-repeat:no-repeat;
+	width:1100px;
+	height:642px;
+	}
+
+#menu_info{
+	position:relative;
+	top:7px;
+	left:-1px;
+	height:65px;
+	}
+
+#menu_info #pestana_info_selec{
+	background-image:url(imagenes/pestana_info.png);
+	background-repeat:no-repeat;
+	font-size:24px;
+	padding-top:5px;
+	}
+
+#menu_info #pestana_info{
+	background-image:url(imagenes/pestana_info2.png);
+	background-repeat:no-repeat;
+	font-size:24px;
+	padding-top:5px;
+	}
+	
+#contenido_info{
+	position:relative;
+	top:10px;
+	left:10px;
+	width:1070px;
+	height:620px;
+	border:solid 0px #F00;
+	}
+
+#info_usuario{
+	position:relative;
+	top:0px;
+	left:0px;
+	margin:5px;
+	width:480px;
+	height:580px;
+	border:solid 1px #777;
+	background:#f9ffd7;
+	}
+
+#info_usuario legend, #estad_usuario legend{
+	background:#f6ffc2;
+	}
+
+#info_usuario img{
+	margin:20px;
+}
+
+#estad_usuario{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:480px;
+	height:185px;
+	border:solid 1px #777;
+	background:#f9ffd7;
+	}
+
+#estadisticas_clientes{
+	height:205px;
+	padding:0px;
+	}
+
+
+
+/* OoOoOoOoOoOoOoOo    ESTILOS DE ENLACES SUPERIORES          OoOoOoOoOoOoOoOo  */
+
+#enlaces_sup{
+	position:relative;
+	top:0px;
+	left:0px;
+	float:right;
+	}
+
+/* OoOoOoOoOoOoOoOo    ESTILOS DATOS PEDIDO          OoOoOoOoOoOoOoOo  */
+#cerrar{
+	background:#9F9;
+	text-align:center;
+	border:solid 1px #000;
+	
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+   	-webkit-border-radius: 7px;
+	box-shadow: black 0.2em 0.2em 0.3em
+	}
+
+
+#sin_leer_pedido{
+	background:#ffb2b2;
+	text-align:center;
+	
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+   	-webkit-border-radius: 7px;
+	box-shadow: black 0.2em 0.2em 0.3em
+	}
+
+#cocinandose_pedido{
+	background:#a2ffa4;
+	text-align:center;
+	
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+   	-webkit-border-radius: 7px;
+	box-shadow: black 0.2em 0.2em 0.3em
+	}
+
+#terminado_pedido{
+	background:#DDD;
+	text-align:center;
+	
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+   	-webkit-border-radius: 7px;
+	box-shadow: black 0.2em 0.2em 0.3em
+	}
+
+#sin_leer_pedido td,#cocinandose_pedido td{
+	padding:5px;
+	}
+
+#cabecera_pagina_datos1{
+	background:#BBB;
+	padding:10px;
+	font-size:18px;
+	}
+#cabecera_pagina_datos2{
+	background:#BBB;
+	padding:10px;
+	font-size:18px;
+	}	
+.negrita{
+	font-weight:bold;
+	}
+
+#cabecera_datos_pedido{
+	background:#fbd366;
+	font-weight:bold;
+	}
+
+#tabla_contenido_pedidos{
+	background:#fbffe3;
+	border-bottom:solid 2px #222;
+	border-left:solid 2px #222;
+	border-right:solid 2px #222;
+	border-top:solid 2px #222;
+}
+#tabla_contenido_pedidos2{
+	background:#fbffe3;
+	border-bottom:solid 2px #222;
+	border-left:solid 2px #222;
+	border-right:solid 2px #222;
+	border-top:solid 2px #222;
+}
+
+
+#cabecera_datos_pedido td{
+	padding:5px;
+	/*border-top:solid 2px #222;*/
+	border-bottom:solid 2px #222;
+	}
+	
+.texto_total{
+	padding:5px;
+	padding-right:10px;
+	}
+
+.total{
+	font-weight:bold;
+	font-size:18px;
+	}
+
+#tabla_contenido_pedidos #fila_par td, #tabla_contenido_pedidos #fila_inpar td{
+	border-bottom:solid 1px #000;
+	}
+
+#tabla_contenido_pedidos hr{
+	border:solid 1px #222;
+	}
+
+#acciones td{
+	padding:10px;
+	text-align:center;
+	}
+
+#acciones A{
+	font-weight:bold;
+	padding:5px;
+	border:solid 1px #000;
+	}
+
+.boton_terminar{
+	background:#287924;
+	color:#EEE;
+	text-align:center;
+	border:solid 1px #111;
+	float:right;
+	padding:2px;
+	}
+
+#no{
+	background:#F00;
+	color:#EEE;
+	padding:5px;
+	font-weight:bold;
+	width:400px;
+	border:solid 1px #000;
+}
+
+
+#ok{
+	background:#a2ffa4;
+	color:#000;
+	padding:5px;
+	font-weight:bold;
+	width:400px;
+	border:solid 1px #000;
+}
+
+
+/* OoOoOoOoOoOoOoOo    ESTILOS PÁGINA ESTADISTICAS          OoOoOoOoOoOoOoOo  */
+
+#calendario{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:180px;
+	height:auto;
+	border:solid 1px #777;
+	background:#f9ffd7;
+	float:left;
+	margin:5px;
+	}
+
+#calendario legend{
+	background:#f6ffc2;
+	}
+
+#calendario #tabla_calendario{
+	color:#800;
+	width:100%;
+	}
+
+#calendario #tabla_navegacion A{
+	color:#800;
+	width:100%;
+	}
+
+#calendario #tabla_navegacion A:hover{
+	text-decoration:underline;
+	}
+
+#calendario #tabla_navegacion td{
+	padding-top:8px;
+	padding-right:5px;
+	}
+	
+#calendario .titulo{
+	font-weight:bold;
+	}
+
+#calendario #boton{
+	width:auto;
+	height:auto;
+	border:solid 1px #6c6fff;
+	float:left;
+	padding:3px;
+	margin-right:3px;
+	background:#f6ffc2;
+	color:#5256ff;
+	}
+
+#ventas{
+	position:relative;
+	top:0px;
+	left:0px;
+	margin:5px;
+	width:720px;
+	border:solid 1px #777;
+	background:#f9ffd7;
+	}
+
+#ventas legend{
+	background:#f6ffc2;
+	}
+
+#tabla_estadisticas{
+	border:solid 2px #777;
+	position:relative;
+	}
+
+#tabla_estadisticas td{
+	padding:3px;
+	}
+
+#tabla_estadisticas #titulo{
+	background:#ffc452;
+	}
+
+
+#ofertas{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:800px;
+	border:solid 5px #fbd366;
+	}
+
+#ofertas #titulo_ofertas{
+	background:#fbd366;
+	padding-left:30px;
+	font-weight:bold;
+	}
+
+#ofertas td{
+	background:#feffba;
+	padding:5px;
+	}
+
+#ofertas #activar_oferta{
+	background:#888;
+	border:solid 2px #555;
+	padding:3px;
+	text-align:center;
+}
+
+#ofertas #desactivar_oferta{
+	background:#a2ffa4;
+	border:solid 2px #555;
+	padding:3px;
+	text-align:center;
+	
+}
+
+
+#bot_guardar{
+	size:19px;
+	font-size:18px;	
+	
+}

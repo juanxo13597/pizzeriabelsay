@@ -1,0 +1,1024 @@
+title{
+	text-align:center;
+	}
+
+body{
+	background:#8db183;
+	font-family: "Arial";
+	}
+
+A{
+	color:#1f7840;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+A:hover{
+	text-decoration:underline;
+	}
+
+#cuerpo{
+	position:absolute;
+	top:0px;
+	left:0px;
+	padding:0px;
+	margin:0px;
+	width:100%;
+	height:100%;
+	background-color:#8db183;
+	}
+	
+#cabecera_img{
+	margin-left:30px;
+
+}
+#cabecera_img img{
+	margin-left:-800px;
+	width:300px;
+	height:206px;
+
+}
+
+	#cabecera_img2{
+		margin-left:990px;
+		margin-top:-180px;
+	
+	}
+	#cabecera_img2 img{
+		margin-left:-850px;
+	
+	}
+
+#cabecera{
+	background-image:url('images_css/fondo-cabecera.png');
+/*	background:#1f7840;*/
+	}
+
+#enlaces_cabecera{
+	float:left;
+}
+
+#enlaces_cabecera #telefonos{
+	padding-left:20px;
+	color:#1f7840;
+	font-weight:bold;
+	font-size:18px;
+}
+
+tr, td, table {
+padding: 0px; margin: 0px; border: 0px; border-collapse: collapse;
+}
+
+#construccion{
+	font-size:30px;
+	color:#EEE;
+	font-weight:bold;
+	}
+
+#enlace{
+	position:relative;
+	top:0px;
+	color:#EEE;
+	text-align:center;
+	padding:15px;
+	border:solid 0px #000;
+	font-weight:bold;
+	}
+
+#enlace A{
+	text-decoration:none;
+}
+
+#enlace:hover{
+	color:#EEE;
+	background:#7c7cff;
+	margin:0px;
+	padding:15px;
+	}
+
+#vip{
+	background:#F00;
+	padding:5px;
+	font-weight:bold;
+	/* poner boton. Hacer con photoshop */
+	}
+
+#franja{
+	height:10px;
+	background:#035823;
+	}
+
+#contenido{
+	background:#DDD;
+	border-left:inset 2px #888;
+	border-right:outset 2px #888;
+	border-bottom:outset 2px #888;
+	}
+
+#botones_usuarios{
+	border-right:solid 1px #888;
+	}
+
+#entrar{
+	position:relative;
+	top:20px;
+	left:0px;
+	width:auto;
+	height:230px;
+	border-top:solid 1px #888;
+	border-bottom:solid 1px #888;
+	background:#EEE;
+	}
+
+#entrar img{
+	position:relative;
+	top:10px;
+	left:4px;
+	border:solid 4px #b0b0ff;
+}
+
+#entrar #datos{
+	position:relative;
+	top: 20px;
+	border:0px;
+	width:200px;
+	color:#1f7840;
+	font-size:18px;
+	font-weight:bold;
+}
+
+#entrar .salir{
+	position:relative;
+	top:30px;
+	color:#1f7840;
+	font-size:15px;
+	text-align:right;
+	width:200px;
+	border:solid 0px #F00;
+	font-family:"Times New Roman", Times, serif;;
+}
+
+#entrar .pregunta{
+	font-weight:bold;
+	color:#1f7840;
+	text-align:center;
+	padding-top:5px;
+	font-size:10px;
+	font-family:"Times New Roman", Times, serif;
+	font-size:32px;
+}
+
+#entrar .olvido{
+	font-weight:bold;
+	color:#1f7840;
+	text-align:right;
+	padding-top:5px;
+	padding-bottom:10px;
+	font-size:8px;
+	border:solid 0px #F00;
+}
+
+.olvido A{
+	color:#1f7840;	
+	font-family:"Times New Roman", Times, serif;;
+	font-size:13px;
+}	
+
+#olvido{
+	background:#eee;
+	border:solid 2px #1f7840;
+	color:#555;
+	font-family:"Times New Roman", Times, serif;;
+	font-size:30px;
+}
+
+#olvido .titulo{
+	font-weight:bold;
+	font-family:"Times New Roman", Times, serif;;
+	font-size:20px;
+}
+
+#olvido td{
+	padding:5px;
+}
+
+#entrar #boton{
+	width:180px;
+	height:30px;
+	background:#8db183;
+	color:#fcfd00;
+	font-weight:bold;
+	font-family:"Times New Roman", Times, serif;;
+	font-size:15px;
+}
+
+#entrar #boton:hover{
+background:#6262ff;
+font-family:"Times New Roman", Times, serif;;
+}
+
+#entrar .pedido{
+	font-weight:bold;
+	color:#7c7cff;
+	text-align:center;
+	padding-top:2px;
+	font-size:20px;
+	font-family:"Times New Roman", Times, serif;;
+}	
+
+#entrar .campo{
+	color:#AAA;
+	
+	}
+#navidad{
+	position:relative;
+	top:40px;
+	width:200px;
+	height:auto;
+	border:solid 0px #F00;
+	font-family:"Times New Roman", Times, serif;;
+	font-size:24px;
+	color:#F00;
+}
+/*     sub enlaces izda     */
+
+
+/*     sub enlaces izda     */
+
+#enlaces_izda{
+	text-align:left;
+	top:40px;
+
+	width:200px;
+	height:auto;
+	border:solid 0px #F00;
+	font-family:"Times New Roman", Times, serif;;
+	font-size:20px;
+}
+
+#enlaces_izda A{
+	position:relative;
+	top:20px;
+	color:#1f7840;
+	font-weight:bold;
+	font-size:20px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border:solid 0px #F00;
+	height:15px;
+	display:block;
+}
+
+
+#enlaces_izda A:hover{
+	color:#CCC;
+	background:#1f7840;
+	
+	}
+
+#carta,#col_derecha{
+	background:#EEE;
+	}
+
+
+/*oOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoO     ESTILOS DE LA SOLICITUD DE ALTA      OoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOo*/
+
+#solicitud_clientes{
+	position:relative;
+	top:0px;
+	background:#CCC;
+	border:solid 4px #1f7840;
+	width:550px;
+	font-size:14px;
+	color:#1f7840;
+	}
+
+#solicitud_clientes td{
+	padding:3px;
+	}
+
+#titulo_solicitud_clientes{
+	background:#8db183;
+	padding:5px;
+	font-weight:bold;
+	}
+#solicitud{
+	color: #149D11; 
+}
+
+/* oOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoO     ESTILOS DEL PEDIDO     OoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOo */
+
+#pedido{
+	position:relative;
+	top:20px;
+	width:200px;
+}
+
+/* oOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoO     ESTILOS DE LA CARTA     OoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOo */
+
+#carta{
+	border:solid 0px #FFF;
+}
+
+#titulo_carta,#titulo_seccion{
+	background:#1f7840;
+	color:#FFF;
+	font-weight:bold;
+	padding-top:3px;
+	padding-bottom:3px;
+	}
+
+#titulo_carta{
+	width:350px;
+}
+
+#cuadro_imagen{
+	border:solid 0px #F00;
+	
+	}
+
+#cuadro_imagen img{
+	border:solid 2px #1f7840;
+	margin-right:1px;
+	margin-left:1px;
+	}
+
+#titulo_seccion{
+	width:170px;
+	}
+
+#texto_gestion{
+	position:relative;
+	top:20px;
+	width:580px;
+	border:solid 0px #F00;
+}
+
+#personaliza{
+	background:#1f7840;
+	font-weight:bold;
+	padding-top:2px;
+	padding-bottom:2px;
+	text-align:center;
+	width:200px;
+}
+
+#personaliza A{
+	color:#FEFEFE;
+}
+
+#titulo_producto{
+	color:#1f7840;
+	font-weight:bold;
+}
+
+#ingredientes{
+	font-size:12px;
+}
+
+#precio{
+	font-weight:bold;
+	color:#fdfd00;
+	background:#1f7840;
+	width:110px;
+	text-align:right;
+	padding-right:4px;
+}
+
+#masa{
+	float:left;
+	border-top:solid 1px #000;
+	margin-top:5px;
+	font-size:14px;
+}
+
+#masa #titulo{
+	font-weight:bold;
+}	
+
+/* oOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoO     ESTILOS DEL PEDIDO     OoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOo */
+
+#pedido{
+	height:60%;
+}
+
+#libreta_centro{
+	position:absolute;
+	top:0px;
+	background:#FFF;
+	border:solid 0px #F00;
+	padding-top:20px;
+	padding-bottom:0px;
+	border:solid 1px #111;
+	}
+
+.tu_pedido{
+	color:#1f7840;
+	font-weight:bold;
+	font-size:14px;
+	border:solid 0px #F00;
+	text-align:right;
+	padding:5px;
+	}
+
+#estilo_pedido{
+	background:#EEE;
+	border:solid 0px #111;
+	width:188px;
+	padding:2px;
+	}
+
+#estilo_pedido .familia{
+	font-size:14px;
+	font-weight:bold;
+	}
+
+#estilo_pedido .articulo{
+	font-size:14px;
+	}
+
+#estilo_pedido .ingredientes{
+	font-size:12px;
+	}
+
+#estilo_pedido .precio{
+	font-size:16px;
+	font-weight:bold;
+	color:#1f7840;
+}
+
+#estilo_pedido #precio_total{
+	background:#1f7840;
+	width:75px;
+	padding:2px;
+	color:#fdfd00;
+	font-weight:bold;
+}
+
+#campo_cantidad{
+	width:15px;
+	margin:3px;
+	}
+
+#tabla_articulo{
+	border:solid 0px #F00;
+	width:187px;
+	}
+
+#saludo{
+	font-size:12px;
+	padding:5px;
+	}
+
+#estilo_pedido hr{
+	color:#0000F5;
+	height:1px;
+	width:90%;
+	}
+
+#nuevo_pedido{
+	border:solid 0px #F00;
+	width:180px;
+}
+
+#nuevo_pedido A{
+	color:#1f7840;
+	font-size:15px;
+	font-weight:bold;
+	}
+
+/* oOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoO     ESTILOS DEL RESUMEN     OoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOo */
+
+#resumen{
+	margin:0px;
+	padding:0px;
+}
+
+#resumen hr{
+	width:80%;
+	border:solid 1px #DDD;
+}
+
+#estilo_resumen{
+	margin:0px;
+	padding:0px;
+	background:#EEE;
+	overflow:auto;
+	
+}
+
+#estilo_resumen #titulo{
+	background:#1f7840;
+	color:#EEE;
+}
+
+#estilo_resumen #tabla_resumen{
+	border:solid 2px #000;
+	padding:5px;
+	margin:5px;
+}
+
+#tabla_resumen td{
+	padding:5px;
+}
+
+#tabla_resumen hr{
+	border:solid 1px #111;
+	width:95%
+}
+
+#estilo_resumen #titulo_resumen{
+	background:#1f7840;
+	color:#eee;
+}
+
+#opciones .titulo{
+	color:#1f7840;
+	font-size:18px;
+	font-weight:bold;
+	padding-left:20px;
+	padding-bottom:5px;
+	padding-top:5px;	
+}
+
+#direcciones{
+	width:400px;
+}
+
+.direccion{
+	font-weight:bold;
+	font-size:20px;
+	padding-top:10px;
+}
+
+#tabla_dir{
+	width:400px;
+}
+
+#tabla_dir td{
+	padding:5px;
+}
+
+/* oOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoO     ESTILOS DEL HISTORIAL     OoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOo */
+
+#tabla_personalizadas{
+	position:relative;
+	top:20px;
+	border:solid 0px #F00;
+	width:580px;
+}
+
+#linea_personalizadas{
+	border:solid 1px #000;
+}
+
+#fila_par{
+	background:#9696ff;
+	text-align:center;
+	padding-top:0px;
+	padding-bottom:0px;
+	border:solid 0px #F00;
+	color:#111
+}
+
+#fila_par .detalles{
+	padding-top:7px;
+}
+
+#fila_impar{
+	background:#cfcfff;
+	text-align:center;
+	padding-top:0px;
+	padding-bottom:0px;
+	border:solid 0px #F00;
+	color:#111
+}
+
+#fila_impar .detalles{
+	padding-top:7px;
+}
+
+
+#texto_titulo{
+	border:solid 0px #F00;
+	background:#1f7840;
+	color:#EEE;
+	font-weight:bold;
+	padding-top:4px;
+	padding-bottom:4px;
+	text-align:center;
+}
+
+#fila_detalles td{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+#fila_detalles .precio{
+	width:17px;
+	}
+
+#fila_detalles .familia{
+	font-weight:bold;
+	font-size:15px;
+}
+
+#fila_detalles .nombre{
+	font-size:15px;
+}
+
+#fila_detalles .precio{
+	font-weight:bold;
+}
+
+#fila_detalles .ingredientes{
+	font-size:12px;
+}
+
+#fila_detalles .total{
+	background:#1f7840;
+	width:10px;
+	padding:5px;
+	color:#fdfd00;
+	font-weight:bold;
+}
+
+#fila_detalles .tamano{
+	font-size:12px;
+}
+
+#personalizar{
+	border-left:solid 1px #1f7840;
+	border-right:solid 1px #1f7840;
+	border-bottom:solid 1px #1f7840;
+	width:500px;
+	}
+
+#personalizar #titulo{
+	
+	position:relative;
+	top:0px;
+	background:#1f7840;
+	color:#FFF;
+	font-weight:bold;
+	width:100%;
+	height:auto;
+	border:solid 0px #1f7840;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-bottom:5px;
+	text-align:center;
+	}
+
+#personalizar legend{
+	border:solid 0px #F00;
+	text-align:center;
+	background:#1f7840;
+	color:#FFF;
+	padding:3px;
+	font-weight:bold;
+}
+
+.nota{
+	font-size:12px;
+	text-align:left;
+}
+
+#personalizar td{
+	padding:5px;
+}
+
+#enviar_carro{
+	text-align:right;
+}
+
+#pagin_person A{
+	color:#1f7840;
+	font-weight:normal;
+}
+
+#pagin_person{
+	font-weight:bold;
+}
+
+/* oOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoO     ESTILOS DEL PERFIL     OoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOo */
+
+#datos{
+	border:solid 1px #1f7840;
+	width:550px;
+}
+
+#datos legend{
+	border:solid 0px #F00;
+	text-align:center;
+	background:#1f7840;
+	color:#FFF;
+	padding:3px;
+	font-weight:bold;
+}
+
+#datos td{
+	padding:5px;
+	padding-left:10px;
+	padding-right:10px;
+	}
+
+#datos #subtitulo{
+	color:#777;
+	
+	}
+
+#datos #campo{
+	padding-left:45px;
+	}
+
+#campo_minuscula{
+	text-transform: lowercase; 
+}
+
+#error{
+	background:#F00;
+	color:#FFF;
+	padding:2px;
+	font-weight:bold;
+	}
+#bien{
+	background:#217e00;
+	color:#EEE;
+	padding:2px;
+	font-weight:bold;
+	}
+
+#boton A{
+	text-decoration:none;
+}
+
+/* oOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoO     ESTILOS DE IMAGENES     OoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOo */
+
+#cambiar_imagen{
+	position:relative;
+	top:20px;
+	background:#CCC;
+	width:580px;
+	border:solid 10px #DDD;
+}
+
+#cambiar_imagen td{
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+#cambiar_imagen .titulo{
+	font-weight:bold;
+	font-size:18px;
+	padding-left:20px;
+}
+
+#cambiar_imagen .texto{
+	font-size:12px;
+}
+
+.boton{
+	background:#1f7840;
+	padding:3px;
+	color:#EEE;
+	font-weight:bold;
+	border:solid 2px #0000F7;
+	font-size:12px;
+	width:100px;
+	text-align:center;
+}
+
+.boton:hover{
+	background:#0000A4
+}
+
+.boton A:hover{
+	text-decoration:none;
+}
+
+#paginacion .boton{
+	background:#1f7840;
+	padding:3px;
+	color:#EEE;
+	font-weight:bold;
+	border:solid 2px #0000F7;
+	font-size:12px;
+	width:70px;
+	text-align:center;
+}
+
+#paginacion .inactivo{
+	background:#9595dc;
+	padding:3px;
+	color:#EEE;
+	font-weight:bold;
+	border:solid 1px #0000F7;
+	font-size:12px;
+	width:70px;
+	text-align:center;
+}
+
+#paginacion .boton:hover{
+	background:#0000A4
+}
+
+#paginacion .boton A:hover{
+	text-decoration:none;
+}
+
+#paginacion A{
+	color:#1f7840;
+}
+
+/* oOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoO     ESTILOS DE NOTA LEGAL     OoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOo */
+
+#cuerpo_legal{
+	padding:0px;
+	margin:0px;
+}
+
+#nota_legal{
+	padding:10px;
+	margin:0px;
+	width:580px;
+	height:580px;
+	overflow:auto;
+}
+
+#nota_legal .titulo{
+	font-weight:bold;
+	color:#1f7840;
+	padding-left:20px;
+}
+
+#nota_pie{
+	width:100%;
+	font-size:14px;
+	color:#1f7840;
+	font-weight:bold;	
+}
+
+#nota_pie #aviso{
+	float:right;
+}
+
+#nota_pie A{
+	color:#1f7840;
+}
+
+#nota_pie .telefonos{
+	font-size:20px;
+	font-weight:bold;
+
+}
+
+#nota_pie .diseno{
+	font-size:10px;
+	
+}
+
+#nota_pie td{
+	border:solid 0px #F00;
+}
+
+/* oOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoO     ESTILOS DEL INDEX     OoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOo */
+
+#cuenta_atras{
+background-color: #1f7840;
+border : 0px ;
+text-align : center;
+padding:10px;
+font-size:20px;
+color:#EEE;
+font-weight:bold;
+}
+
+#apertura{
+	position:relative;
+	top:20px;
+	text-align:center;
+}
+
+#apertura .texto{
+	color:#1f7840;
+	font-weight:bold;
+}
+
+#apertura .faltan{
+	color:#1f7840;
+	font-weight:bold;
+	font-size:20px;
+}
+
+/* oOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoO     ESTILOS DE LAS OFERTAS     OoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOo */
+
+#tabla_ofertas{
+	margin:10px;
+	border:solid 0px #F00;
+	margin-top:20px;
+}
+
+#tabla_ofertas td{
+	padding:10px;
+}
+
+#tabla_ofertas .titulo_ofertas{
+	color:#1f7840;
+	font-weight:bold;
+	font-size:24px;
+}
+
+#tabla_ofertas .texto_ofertas{
+	color:#333;
+}
+
+#tabla_ofertas .enlace_ofertas{
+	text-align:right;
+	background:#1f7840;
+	color:#EEE;
+	font-weight:bold;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:3px;
+	padding-bottom:3px;
+	position:relative;
+	float:right;
+}
+
+#realizar_oferta{
+	text-align:right;
+	background:#1f7840;
+	color:#EEE;
+	font-weight:bold;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:3px;
+	padding-bottom:3px;
+	position:relative;
+	margin:5px;
+}
+
+/* oOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoO     ESTILOS DE LA PÁGINA DE INICIO     OoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOo 
+color:#1f7840;
+
+ */
+
+#texto_inicio{
+	color:#000;
+	position:relative;
+	top:20px;
+	font-size:20px;
+	font-weight:bold;
+	line-height:170%;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+#importante{
+	
+	color:#000;
+	position:relative;
+	top:20px;
+	font-size:30px;
+	font-weight:bold;
+	line-height:170%;
+	font-family:"Times New Roman", Times, serif;;
+}
+
+#link{
+	color:#000;
+	text-decoration:underline;
+	text-transform:capitalize;
+	font-size:16px;
+	font-weight:bold;
+	line-height:170%;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+.cerrar A{
+	color:#000;
+}
+
+
+#producto_agotado {
+		
+	color:#F00;
+	font-size:12px;
+}
+
+#pedido_minimo{
+	
+	color:#F00;
+	
+	
+}
+
+#carta_navidad{
+	width:auto;
+	height:auto;
+	background:cabereca_navidad3.png;
+	
+}
