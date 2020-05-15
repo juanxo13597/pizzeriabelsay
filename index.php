@@ -33,6 +33,7 @@ echo "nuevo id usuario: ".$_SESSION["id"];
 
 <?php centro11() ?>
 <div id='texto_inicio'>
+<img src="imagenes/qr.jpg" width="250">
   <p>
     BELSAY (Fuentes de andaluc&iacute;a) YA TIENE SU SITIO EN INTERNET. DESDE AHORA PODR&Aacute;S HACER TUS PEDIDOS ONLINE, REALIZAR PEDIDOS ANTERIORES CON UN SOLO CLICK DESDE TU HISTORIA Y MUCHAS M&Aacute;S COSAS.<br><br>
     SI AUN NO ERES USUARIO, SOLICITA YA EL ALTA <a id="link" href="solicitud.php"><strong>AQUI</strong></a> Y NO SEAS EL &Uacute;LTIMO</p>
